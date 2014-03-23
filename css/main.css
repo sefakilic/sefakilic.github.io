@@ -102,10 +102,15 @@ a:visited { color: #a0a; }
 }
 
 .header a.extra {
-  color: #aaa;
+  color: #888;
 }
 
 .header a.extra:hover {
+  color: #000;
+}
+
+.header a.extra.active {
+  background-color: #aaa;
   color: #000;
 }
 
