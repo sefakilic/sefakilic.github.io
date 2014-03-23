@@ -10,14 +10,19 @@
   padding: 0;
 }
 
-
 body {
   background-color: #FFF;
   font-family: 'Open Sans', sans-serif;
   text-align: center;
-  width: 42em;
+  width: 80%;
   margin: auto;
   font-size: 0.9em;
+}
+
+@media screen and (min-width: 1024px) {
+    body {
+        width: 42em;
+    }
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -72,7 +77,6 @@ a:visited { color: #a0a; }
     margin-bottom: 1em;
     position: fixed;
     top: 0;
-    width: 42em;
     background-color: #fff;
 }
 
@@ -99,7 +103,6 @@ a:visited { color: #a0a; }
 
 .header a.extra {
   color: #aaa;
-  margin-left: 1em;
 }
 
 .header a.extra:hover {
