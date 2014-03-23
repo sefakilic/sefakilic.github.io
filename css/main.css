@@ -1,0 +1,162 @@
+/*****************************************************************************/
+/*
+/* Common
+/*
+/*****************************************************************************/
+
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  background-color: #FFF;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  width: 42em;
+  margin: auto;
+  font-size: 0.9em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%; }
+
+p { margin: 1em 0; }
+
+ul { margin: 1em 1em; }
+
+a         { color: #00a; }
+a:hover   { color: #000; }
+a:visited { color: #a0a; }
+
+/*****************************************************************************/
+/*
+/* Home
+/*
+/*****************************************************************************/
+.posts {
+  list-style-type: none;
+  margin-bottom: 2em;
+}
+
+.posts li {
+  line-height: 1.75em;
+}
+
+.posts span {
+  color: #aaa;
+  font-family: monospace, Monaco, "Courier New";
+  font-size: 80%;
+}
+
+/*****************************************************************************/
+/*
+/* Site
+/*
+/*****************************************************************************/
+
+.site {
+  text-align: justify;
+  margin-top: 4em;
+  line-height: 1.5em;
+}
+
+.site h1 {
+    border-bottom: 2px solid #eee;
+}
+
+.header {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    position: fixed;
+    top: 0;
+    width: 42em;
+    background-color: #fff;
+}
+
+.header a {
+  font-weight: bold;
+  text-decoration: none;
+  border: 1px solid #eee;
+  background-color: #eee;
+  padding: 0px 5px;
+}
+
+.title {
+  display: inline-block;
+  margin-bottom: 1em;
+}
+
+.title a {
+  color: #a00;
+}
+
+.title a:hover {
+  color: #000;
+}
+
+.header a.extra {
+  color: #aaa;
+  margin-left: 1em;
+}
+
+.header a.extra:hover {
+  color: #000;
+}
+
+.meta {
+  color: #aaa;
+}
+
+.contact-div {
+    color: #666;
+}
+.contact-div .contact {
+  float: left;
+  margin-right: 3em;
+  line-height: 1.3em;
+}
+
+.contact-div .contact a {
+  color: #8085C1;
+}
+
+/*****************************************************************************/
+/*
+/* Posts
+/*
+/*****************************************************************************/
+
+/* standard */
+.post pre {
+  border: 1px solid #ddd;
+  background-color: #eef;
+  padding: 0 .4em;
+}
+
+.post ul, .post ol {
+  margin-left: 1.35em;
+}
+
+.post code {
+  border: 1px solid #ddd;
+  background-color: #eef;
+  padding: 0 .2em;
+}
+
+.post pre code {
+  border: none;
+}
+
+/* terminal */
+.post pre.terminal {
+  border: 1px solid #000;
+  background-color: #333;
+  color: #FFF;
+}
+
+.post pre.terminal code {
+  background-color: #333;
+}
