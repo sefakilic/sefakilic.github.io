@@ -16,6 +16,8 @@
 
     <!-- jquery -->
     <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <!-- custom js files -->
+    <script src="/js/quotes.js"></script>
 
   </head>
   <body>
@@ -31,13 +33,24 @@
 
       {{ content }}
 
+      <div class="quote">
+      </div>
+
     </div>
+    
+
 
     <script type="text/javascript">
       $(".extra").each(function(){
         if($(this).attr("href") == "{{ page.url }}")
           $(this).addClass('active');
       });
+
+      // load quote
+      var randomQuote = getRandomQuote();
+      $('.quote').html(randomQuote['quote'] + ' - <i>' + randomQuote['by'] + '</i>');
+      $('.quote').css('width', $('body').css('width'));
+      
     </script>
 
   </body>

@@ -21,7 +21,7 @@ body {
 
 @media screen and (min-width: 1024px) {
     body {
-        width: 42em;
+        width: 55em;
     }
 }
 
@@ -122,13 +122,23 @@ a:visited { color: #a0a; }
 }
 
 .contact-div .contact {
-  float: left;
+  display: inline-block;
   margin-right: 3em;
   line-height: 1.3em;
 }
 
 .contact-div .contact a {
   color: #8085C1;
+}
+
+.quote {
+    position: fixed;
+    bottom: 0;
+    color: #666;
+    border-top: 2px solid #eee;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    padding-top: 1em;
 }
 
 /*****************************************************************************/
