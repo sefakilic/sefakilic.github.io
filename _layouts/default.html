@@ -1,57 +1,19 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>{{ page.title }}</title>
-    <meta name="viewport" content="width=device-width">
 
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700,700italic&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+  {% include head.html %}
 
-    <!-- syntax highlighting CSS -->
-    <link rel="stylesheet" href="/css/syntax.css">
+    <body>
 
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="/css/main.css">
+    {% include header.html %}
 
-    <!-- jquery -->
-    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-    <!-- custom js files -->
-    <script src="/js/quotes.js"></script>
-
-  </head>
-  <body>
-
-    <div class="site">
-      <div class="header">
-        <a class="extra" href="/index.html">home</a>
-        <a class="extra" href="/research.html">research</a>
-        <a class="extra" href="/teaching.html">teaching</a>
-        <a class="extra" href="/blog.html">blog</a>
-        <a class="extra" href="/other.html">other</a>
-      </div>
-
+    <div class="page-content">
+      <div class="wrap">
       {{ content }}
-
-      <div class="quote">
       </div>
-
     </div>
-    
 
+    {% include footer.html %}
 
-    <script type="text/javascript">
-      $(".extra").each(function(){
-        if($(this).attr("href") == "{{ page.url }}")
-          $(this).addClass('active');
-      });
-
-      // load quote
-      var randomQuote = getRandomQuote();
-      $('.quote').html(randomQuote['quote'] + ' - <i>' + randomQuote['by'] + '</i>');
-      $('.quote').css('width', $('body').css('width'));
-      
-    </script>
-
-  </body>
+    </body>
 </html>

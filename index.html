@@ -1,35 +1,31 @@
 ---
 layout: default
-title: home
 ---
 
-<p>
-I am Sefa Kılıç, a Ph.D. candidate in
-the <a href="http://compbio.umbc.edu">Erill Lab</a>
-at <a href="http://biology.umbc.edu/">Department of Biological
-Sciences</a>, <a href="http://umbc.edu">UMBC</a>.
-</p>
+<div class="home">
 
-<br/>
-<br/>
+  <p>I am Sefa Kılıç, a Ph.D. candidate in
+    the <a href="http://compbio.umbc.edu/">Erill Lab</a>
+    at <a href="http://biology.umbc.edu/">Department of Biological
+    Sciences</a>, <a href="http://umbc.edu/">University of Maryland Baltimore
+    County</a>.
+  </p>
 
+  <!--
 
-<h1>Contact Info</h1>
-<div class="contact-div">
-  <div class="contact">
-    <p>
-      Sefa Kilic<br />
-      <a href="mailto:sefa1@umbc.edu">sefa1@umbc.edu</a><br />
-      Biological Sciences 105 <br />
-      University of Maryland Baltimore County (UMBC)<br />
-      1000 Hilltop Circle<br />
-      Baltimore MD, 21250
-    </p>
-  </div>
-  <div class="contact">
-    <p>
-      <a href="https://github.com/sefakilic"><img alt="github" src="/images/GitHub-Mark-32px.png"></a>
-      <a href="https://twitter.com/sefatron"><img alt="twitter" src="/images/bird_blue_32.png"></a><br />
-    </p>
-  </div>
+  <h1>Posts</h1>
+
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+  -->
+
 </div>
