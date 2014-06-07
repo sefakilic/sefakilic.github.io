@@ -4,7 +4,28 @@ title: Research
 permalink: /research/
 ---
 
-Coming soon
+## Interests
+
+Comparative genomics, transcriptional regulation, machine learning
+
+## Research Overview
+
+In order to adapt to changing environmental conditions, cells control expression
+of genes, to increase or decrease the amount of specific gene products (protein
+or RNA) when needed. I'm interested in understanding one of the most common
+mechanisms to modulate gene expression: regulation of transcription initiation
+by transcription factors.
+
+Transcriptional factors are proteins that regulate gene expression by
+recognizing and binding to specific DNA sequences upstream of coding
+regions. I'm particularly interested in the evolution of transcriptional
+regulation in bacterial species when facing changes in the base distribution of
+their genomes. How do transcriptional regulatory elements, namely transcription
+factors, their binding motifs and regulatory networks, evolve when the genomic
+background changes significantly? I use comparative genomics and machine
+learning approaches on experimentally verified transcription factor binding site
+data with the goal of creating methods and tools to reconstruct regulatory
+networks and performing their comparative analysis.
 
 ## Publications
 
