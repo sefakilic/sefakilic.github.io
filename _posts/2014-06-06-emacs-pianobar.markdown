@@ -2,6 +2,7 @@
 layout: post
 title:  "Listen to Pandora with Emacs"
 date:   2014-06-03 17:04:35
+comments: true
 categories: emacs
 ---
 
@@ -65,4 +66,7 @@ functions.
 
 {% gist sefakilic/3731a4112828793706fe %}
 
+{% if page.comments %}
+
+{% endif %}
 
