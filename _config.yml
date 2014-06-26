@@ -3,7 +3,7 @@ title: Sefa Kilic
 email: sefa1@umbc.edu
 description: ""
 baseurl: ""
-url: "sefakilic.github.io"
+url: "http://sefakilic.github.io"
 
 # Build settings
 markdown: kramdown
