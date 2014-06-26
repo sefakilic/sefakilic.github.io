@@ -4,7 +4,7 @@ title: Other
 permalink: /other/
 ---
 
-A collection of links to the stuff that I like to do.
+A collection of interesting stuff.
 
 ## Programming challenges
 
@@ -23,3 +23,7 @@ I enjoy solving online programming problems. Here are a few of them.
 - [Coursera](https://www.coursera.org/)
   ([a few courses](https://www.coursera.org/user/i/05d7bbce2237f465aeed0ba04992febb)
   that I have completed or I am still following)
+
+## LaTeX
+- [Detexify](http://detexify.kirelabs.org/classify.html): LaTex handwritten
+  symbol recognition
