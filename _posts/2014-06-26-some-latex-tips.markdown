@@ -27,7 +27,7 @@ In LaTex, a piecewise function can be displayed as follows:
 
 The output is
 
-![testing]({{ site.url }}/images/blog/piecewise.png)
+![testing]({{site.url}}/assets/piecewise.png)
 
 ## Font sizes
 
