@@ -7,4 +7,4 @@ categories: python
 ---
 
 The blog post in [IPython Notebook](http://ipython.org/notebook.html) available
-[here](http://nbviewer.ipython.org/github/sefakilic/sefakilic.github.io/tree/master/_misc/python_memoization.ipynb)
+[here](http://nbviewer.ipython.org/github/sefakilic/sefakilic.github.io/tree/master/_misc/python_memoization.ipynb).
