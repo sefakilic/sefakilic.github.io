@@ -9,9 +9,9 @@
 html, body { height: 100%; }
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Verdana', 'Open Sans', sans-serif;
   font-size: 15px;
-  line-height: 1.5;
+  line-height: 1.4;
   font-weight: 300;
   background-color: #fdfdfd;
   color: #444;
