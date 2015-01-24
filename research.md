@@ -29,17 +29,17 @@ networks and performing their comparative analysis.
 
 ## Publications
 
-- Kılıç, S., White, E. R., Sagitova, D. M., Cornish, J. P., & Erill,
+- *Kılıç, S.*, White, E. R., Sagitova, D. M., Cornish, J. P., & Erill,
   I. "CollecTF: a database of experimentally validated transcription
   factor-binding sites in Bacteria." Nucleic Acids Research (1 January 2014) 42
   (D1): D148-D155
   [doi:10.1093/nar/gkt1087](http://www.ncbi.nlm.nih.gov/pubmed/24234444)
 
-- David Zamorano-Sanchez, Jiunn C. Fong, Sefa Kılıç, Ivan Erill and Fitnat
+- David Zamorano-Sanchez, Jiunn C. Fong, *Sefa Kılıç*, Ivan Erill and Fitnat
   H. Yildiz. "Identification and characterization of VpsR and VpsT recognition
   sites in Vibrio cholerae.  Journal of Bacteriology. _Accepted_
 
-- Sefa Kılıç, Pinar Şenkul, Ismail Hakkı Toroslu. "Clustering Frequent
+- *Sefa Kılıç*, Pinar Şenkul, Ismail Hakkı Toroslu. "Clustering Frequent
   Navigation Patterns from Website Logs by Using Ontology and Temporal
   Information."  Computer and Information Sciences III. 2013
 
