@@ -35,6 +35,14 @@ networks and performing their comparative analysis.
   (D1): D148-D155
   [doi:10.1093/nar/gkt1087](http://www.ncbi.nlm.nih.gov/pubmed/24234444)
 
+- David Zamorano-Sanchez, Jiunn C. Fong, Sefa Kılıç, Ivan Erill and Fitnat
+  H. Yildiz. "Identification and characterization of VpsR and VpsT recognition
+  sites in Vibrio cholerae.  Journal of Bacteriology. _Accepted_
+
+- Sefa Kılıç, Pinar Şenkul, Ismail Hakkı Toroslu. "Clustering Frequent
+  Navigation Patterns from Website Logs by Using Ontology and Temporal
+  Information."  Computer and Information Sciences III. 2013
+
 ## Posters
 
 - "CollecTF: a database of experimentally validated bacterial TF-binding
